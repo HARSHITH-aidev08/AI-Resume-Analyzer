@@ -132,6 +132,5 @@ with gr.Blocks(title="Resume Ascent AI") as demo:
         inputs=[resume_input, job_role_input],
         outputs=output
     )
-
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
