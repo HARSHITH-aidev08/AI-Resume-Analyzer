@@ -1,0 +1,21 @@
+# Environment variables (API keys)
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Gradio / temporary files
+.gradio/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
